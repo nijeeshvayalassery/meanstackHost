@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express.js' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'express.js', null ]
+6 verbose cache add name=undefined spec="express.js" args=["express.js",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'express.js',
+7 verbose parsed url   path: 'express.js',
+7 verbose parsed url   href: 'express.js' }
+8 silly lockFile c23fe01e-express-js express.js
+9 verbose lock express.js C:\Users\USER\AppData\Roaming\npm-cache\c23fe01e-express-js.lock
+10 silly lockFile c23fe01e-express-js express.js
+11 silly lockFile c23fe01e-express-js express.js
+12 verbose addNamed [ 'express.js', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 2a40939a-express-js express.js@
+15 verbose lock express.js@ C:\Users\USER\AppData\Roaming\npm-cache\2a40939a-express-js.lock
+16 silly addNameRange { name: 'express.js', range: '*', hasData: false }
+17 verbose request where is /express.js
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id f06f05b33deef173
+20 verbose url raw /express.js
+21 verbose url resolving [ 'https://registry.npmjs.org/', './express.js' ]
+22 verbose url resolved https://registry.npmjs.org/express.js
+23 verbose request where is https://registry.npmjs.org/express.js
+24 info trying registry request attempt 1 at 16:22:39
+25 http GET https://registry.npmjs.org/express.js
+26 http 404 https://registry.npmjs.org/express.js
+27 silly registry.get cb [ 404,
+27 silly registry.get   { 'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '2',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Wed, 30 Sep 2015 10:52:39 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-sin6921-SIN',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1443610359.721106,VS0,VE255' } ]
+28 silly lockFile 2a40939a-express-js express.js@
+29 silly lockFile 2a40939a-express-js express.js@
+30 error 404 Not Found
+30 error 404
+30 error 404 'express.js' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Maybe try 'npm search express'
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Windows_NT 6.1.7601
+32 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express.js"
+33 error cwd F:\NVWEB\TryOut\UserReg\Server
+34 error node -v v0.10.33
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]

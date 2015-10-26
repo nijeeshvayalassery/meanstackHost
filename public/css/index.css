@@ -1,0 +1,25 @@
+.AddBorder{
+	border-style: solid;
+    border-color: red;
+}
+.NavCol{
+	border-right: solid;
+	border-color: #293c06;
+	border-right-width: 2px;
+	height: 500px;
+}
+.ErrAlertinput{
+	border-color: #FF0000;
+  	box-shadow: 0 1px 1px #FF0000 inset, 0 0 8px #FF0000;
+}
+.formcenter {
+    left: 250px;
+}
+.cblue{
+	color: #5858FA;
+}
+.userexist{
+	top:30px;
+	height: 20px;
+	padding: 7px;
+}
